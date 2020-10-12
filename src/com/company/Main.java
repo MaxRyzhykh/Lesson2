@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,6 +15,15 @@ public class Main {
         boolean monthBiggerDay;
         monthBiggerDay  = monthOfBirthday > dayOfBirthday;
         System.out.println("Месяц моего рождения больше даты рождения: " + monthBiggerDay);
+
+        char[] name = new char[6];
+        name[0] = 'M';
+        name[1] = 'a';
+        name[2] = 'k';
+        name[3] = 's';
+        name[4] = 'i';
+        name[5] = 'm';
+        System.out.println(Arrays.toString(name));
 
     }
 }
