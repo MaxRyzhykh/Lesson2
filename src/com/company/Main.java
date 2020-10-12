@@ -23,7 +23,15 @@ public class Main {
         name[3] = 's';
         name[4] = 'i';
         name[5] = 'm';
-        System.out.println(Arrays.toString(name));
-
+//        System.out.println(Arrays.toString(name));
+        System.out.print("Массив с моим именем: ");
+        for (int i = 0; i < name.length; i++) {
+            System.out.print(name[i]);
+        }
+        double myAge = 24;
+        double partYear = 5.0/12.0;
+        myAge = myAge + partYear;
+        System.out.println();
+        System.out.println("Мне " + myAge + " лет");
     }
 }
